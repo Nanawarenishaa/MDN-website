@@ -14,7 +14,7 @@ const ContentPage = () => {
         </div>
       ) :
        (
-        <h2 className="text-black text-4xl">Please select a topic from the sidebar.</h2>
+        <h2 className="text-black text-4xl">Please select a topic.</h2>
       )}
     </div>
   );

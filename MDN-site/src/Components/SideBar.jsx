@@ -7,8 +7,12 @@ const SideBar = ({ closeSideBar }) => {
   const { setSelectContent } = useContext(ContentContext); 
   const [isOpen, setIsOpen] = useState(null);
 
-  const toggleSubPoints = (mainPoint) => {
-    setIsOpen((prevOpen) => (prevOpen === mainPoint ? null : mainPoint));
+  const toggleSubPoints = (MainPoint) => {
+    if (isOpen === MainPoint) {
+      setIsOpen(null);
+    } else {
+      setIsOpen(MainPoint);
+    }
   };
 
   return (

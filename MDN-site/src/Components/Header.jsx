@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Header = ({toggleSideBar}) => {
   return (
 
-    <div className="w-full p-2 bg-white shadow-sm text-black place-content-center flex justify-between items-center">
+    <div className="w-full p-2 bg-white shadow-sm text-black  place-content-center flex justify-between items-center">
       <CiMenuKebab className="text-4xl" onClick={toggleSideBar} />
       <div className="flex gap-12 items-center ">
     <Link to="/login">
