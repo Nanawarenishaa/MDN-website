@@ -19,7 +19,7 @@ const Login = () => {
 <label htmlFor="" className="font-semibold text-slate-800 mt-4 "> PASSWORD</label>
 <input type="password" className="w-full rounded-md py-2 border border-slate-500 pl-4 shadow-sm" placeholder="Enter Password" />
 <label className="text-indigo-800 mt-2 mb-6">Forgot Password ?</label>
-<button className="bg-indigo-800 text-white shadow-lg py-2 rounded-md hover:bg-white text-xl border hover:border-indigo-900 hover:text-indigo-900 transform duration-300">Login</button>
+<button className="bg-indigo-800 text-white shadow-lg py-2 rounded-md hover:bg-white text-xl border hover:border-indigo-900 hover:text-indigo-900 transform duration-300" onClick={()=> navigate(-1)}>Login</button>
       </div> 
     </div>
   )
